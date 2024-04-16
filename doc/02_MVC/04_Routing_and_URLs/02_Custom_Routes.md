@@ -175,7 +175,7 @@ As an example a simple route matching `/{_locale}/test`:
 Whatever is matched in `_locale` will be automatically used as site-wide locale for the request.
 
 
-#### Mappping other parameters to `_locale`
+#### Mapping other parameters to `_locale`
 
 When migrating an existing site to Pimcore 5/6 you may already have static routes which rely on another parameter (e.g. `language`)
 to define the locale for the request. To avoid having to migrate those static routes and locations where the routes are 
